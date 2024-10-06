@@ -1,0 +1,78 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    background-image: url('../img/assets/JAESOH.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 1;
+}
+
+section {
+    display:flex;
+    margin: auto;
+}
+
+.heading {
+    font-size: 6.5rem;
+    letter-spacing: 0cap;
+    margin-top: 3.5cap;
+    margin-bottom: 0;
+}
+.subheading {
+    font-style: italic;
+    font-size: 4rem;
+    letter-spacing: 0cap;
+    margin-top: 0cap;
+    margin-bottom: 0;
+    margin-left: 1.8cap;
+}
+
+/* Paragraph */
+
+p {
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: left;
+    letter-spacing: .5px;
+}
+.pleft-align {
+    color: #AFC091;
+    text-align: left;
+    margin-left: 5cap;
+}
+.pright-align {
+    color: #AFC091;
+    text-align: right;
+    margin-right: 5cap;
+}
+
+/* Headings */
+
+h1 {
+    letter-spacing: 1px;
+    font-size: 5rem;
+    color: white;
+    margin-left: 1cap;
+}
+
+h2 {
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 1cap;
+    color: white;
+}
+h6 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 1cap;
+    color: white;
+}
+
+/* Images */
+
+.me-img {
+    width: 75%;
+    height: 75%;
+    float: right;
+}

@@ -118,3 +118,5 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+https://stackoverflow.com/questions/69707160/text-floating-left-and-image-on-the-right
+https://stackoverflow.com/questions/40822576/removing-space-between-h1-and-h2
