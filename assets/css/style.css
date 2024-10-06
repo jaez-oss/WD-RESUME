@@ -27,6 +27,15 @@ section {
     margin-bottom: 0;
     margin-left: 1.8cap;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-item {
+    height:auto;
+    margin: 4rem;
+    margin-bottom: 0;
+}
 
 /* Paragraph */
 
@@ -58,6 +67,12 @@ h1 {
 
 h2 {
     font-size: 5rem;
+    text-align: left;
+    margin-left: 1cap;
+    color: white;
+}
+h3 {
+    font-size: 3rem;
     text-align: left;
     margin-left: 1cap;
     color: white;
