@@ -12,32 +12,114 @@ section {
     display:flex;
     margin: auto;
 }
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
 
-.heading {
-    font-size: 6.5rem;
-    letter-spacing: 0cap;
-    margin-top: 3.5cap;
-    margin-bottom: 0;
+
+/* EDUCATION */
+.grid-item-header-educ {
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #AFC091;
+    letter-spacing: 1rem;
+    height:auto;
+    margin:auto;
+    padding: 10px;
+    width: 50%;
+    margin-right: 5cap;
+    margin-top: 1cap;
+    margin-bottom: 1.5cap;
 }
-.subheading {
-    font-style: italic;
-    font-size: 4rem;
-    letter-spacing: 0cap;
-    margin-top: 0cap;
-    margin-bottom: 0;
-    margin-left: 1.8cap;
+    .grid-item-year-educ {
+        height:auto;
+        font-family: 'Times New Roman', Times, serif;
+        color: #deebc8;
+        font-style:oblique;
+        opacity: 70%;
+        font-size: 90px;
+        margin: 4rem;
+        margin-top: 0;
+        margin-bottom: 0.5;
+    
 }
-.grid-container {
+    .grid-item-large-educ {
+    height:auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #deebc8  ;
+    font-size: 45px;
+    margin: 4rem;
+    margin-top: 0;
+    margin-bottom: 0.5;
+
+}
+    .grid-item-small-educ {
+    height:auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #deebc8  ;
+    font-size: 30px;
+    margin: 4rem;
+    margin-top: 1;
+    margin-bottom: 0; 
+
+}
+
+
+/* EXPERIENCE */
+.grid-item-header-exp {
+    font-size: 6rem;
+    height:auto;
+    margin:auto;
+    padding: 10px;
+    width: 50%;
+    margin-right: 4.7cap;
+    margin-top: 1cap;
+    margin-bottom: 1.5cap;
+}
+
+/* SKILLS */
+.grid-item-header-skl {
+    font-size: 6rem;
+    height:auto;
+    margin:auto;
+    padding: 10px;
+    width: 50%;
+    margin-right: 3.9cap;
+    margin-top: 1cap;
+    margin-bottom: 1.5cap;
+}
+
+
+.grid-container-educ {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.3fr;
 }
-.grid-item {
-    height:auto;
-    margin: 4rem;
-    margin-bottom: 0;
+.grid-container-exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.3fr;
 }
 
-/* Paragraph */
+.grid-container-skl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.3fr;
+}
+.grid-item-small {
+    height:auto;
+    color: #AFC091;
+    font-size: 35px;
+    margin: 4rem;
+    margin-top: 0;
+    margin-bottom: 0.5;
+}
+
+
+
+/* Paragraph and its Alignment */
 
 p {
     font-size: 1.5rem;
@@ -58,6 +140,24 @@ p {
 
 /* Headings */
 
+.heading {
+    font-size: 6.5rem;
+    letter-spacing: 0cap;
+    margin-top: 3.5cap;
+    margin-bottom: 0;
+}
+.subheading {
+    font-style: italic;
+    font-size: 4rem;
+    letter-spacing: 0cap;
+    margin-top: 0cap;
+    margin-bottom: 0;
+    margin-left: 1.8cap;
+}
+
+
+/* Defaults */
+
 h1 {
     letter-spacing: 1px;
     font-size: 5rem;
@@ -77,17 +177,40 @@ h3 {
     margin-left: 1cap;
     color: white;
 }
-h6 {
-    font-size: 2rem;
+h4 {
+    font-size: 3rem;
     text-align: left;
     margin-left: 1cap;
     color: white;
 }
+h6 {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 1cap;
+    color: white;
+}
+
+/* Alignment */
+
+.right-align {
+    text-align: right;
+    margin-right: 1.5cap;
+}
+.left-align {
+    text-align: left;
+    margin-left: 1.5cap;
+}
+
+/* Font sizes */
+.pfont-size {
+    font-size: medium;
+}
+
+
 
 /* Images */
 
 .me-img {
     width: 75%;
     height: 75%;
-    float: right;
 }
