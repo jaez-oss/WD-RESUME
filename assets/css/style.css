@@ -1,127 +1,53 @@
+/* Fonts */
+@font-face {
+    font-family: Montserrat;
+    src: url(/assets/font/MontserratBlack-3zOvZ.ttf);
+}
+@font-face {
+    font-family: Cheva;
+    src: url(/assets/font/ChevadisplayRegular-1G5ve.otf);
+}
+@font-face {
+    font-family: Madsense;
+    src: url(/assets/font/MadsenseFreeTrial-qZmDV.otf);
+}
+
+@font-face {
+    font-family: Shameimaru;
+    src: url(/assets/font/ShameimaruSans-9VX0.ttf);
+}
+@font-face {
+    font-family: Mustica Pro;
+    src: url(/assets/font/MusticaproSemibold-lgmwD.otf);
+}
+@font-face {
+    font-family: Horizon;
+    src: url(/assets/font/horizon_outlined.otf);
+}
+
+
+/* Universal */
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:black;
-    background-image: url('../img/assets/JAESOH.png');
+    background-image: url('../img/backgroundAssets/jaesohBackground.png');
     background-position: center top;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 1;
-}
+    margin: 5cap;
+    padding: 1cap;
+    border: 1cap;
 
 section {
     display:flex;
     margin: auto;
 }
-.center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-  }
 
-
-/* EDUCATION */
-.grid-item-header-educ {
-    font-size: 6rem;
-    font-family: 'Times New Roman', Times, serif;
-    color: #AFC091;
-    letter-spacing: 1rem;
-    height:auto;
-    margin:auto;
-    padding: 10px;
-    width: 50%;
-    margin-right: 5cap;
-    margin-top: 1cap;
-    margin-bottom: 1.5cap;
+hr {
+    border-color: #AFC091;
+    opacity: 40%;
 }
-    .grid-item-year-educ {
-        height:auto;
-        font-family: 'Times New Roman', Times, serif;
-        color: #deebc8;
-        font-style:oblique;
-        opacity: 70%;
-        font-size: 90px;
-        margin: 4rem;
-        margin-top: 0;
-        margin-bottom: 0.5;
-    
-}
-    .grid-item-large-educ {
-    height:auto;
-    font-family: 'Times New Roman', Times, serif;
-    color: #deebc8  ;
-    font-size: 45px;
-    margin: 4rem;
-    margin-top: 0;
-    margin-bottom: 0.5;
-
-}
-    .grid-item-small-educ {
-    height:auto;
-    font-family: 'Times New Roman', Times, serif;
-    color: #deebc8  ;
-    font-size: 30px;
-    margin: 4rem;
-    margin-top: 1;
-    margin-bottom: 0; 
-
-}
-
-
-/* EXPERIENCE */
-.grid-item-header-exp {
-    font-size: 6rem;
-    height:auto;
-    margin:auto;
-    padding: 10px;
-    width: 50%;
-    margin-right: 4.7cap;
-    margin-top: 1cap;
-    margin-bottom: 1.5cap;
-}
-
-/* SKILLS */
-.grid-item-header-skl {
-    font-size: 6rem;
-    height:auto;
-    margin:auto;
-    padding: 10px;
-    width: 50%;
-    margin-right: 3.9cap;
-    margin-top: 1cap;
-    margin-bottom: 1.5cap;
-}
-
-
-.grid-container-educ {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1.3fr;
-}
-.grid-container-exp {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1.3fr;
-}
-
-.grid-container-skl {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1.3fr;
-}
-.grid-item-small {
-    height:auto;
-    color: #AFC091;
-    font-size: 35px;
-    margin: 4rem;
-    margin-top: 0;
-    margin-bottom: 0.5;
-}
-
-
-
-/* Paragraph and its Alignment */
-
+/* Paragraph and Alignment */
 p {
+    font-family: sans-serif;
     font-size: 1.5rem;
     color: aliceblue;
     text-align: left;
@@ -138,33 +64,16 @@ p {
     margin-right: 5cap;
 }
 
-/* Headings */
-
-.heading {
-    font-size: 6.5rem;
-    letter-spacing: 0cap;
-    margin-top: 3.5cap;
-    margin-bottom: 0;
-}
-.subheading {
-    font-style: italic;
-    font-size: 4rem;
-    letter-spacing: 0cap;
-    margin-top: 0cap;
-    margin-bottom: 0;
-    margin-left: 1.8cap;
-}
-
 
 /* Defaults */
 
 h1 {
     letter-spacing: 1px;
     font-size: 5rem;
-    color: white;
     margin-left: 1cap;
-}
+    color: #ffffff;
 
+}
 h2 {
     font-size: 5rem;
     text-align: left;
@@ -178,6 +87,12 @@ h3 {
     color: white;
 }
 h4 {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 1cap;
+    color: white;
+}
+h5 {
     font-size: 3rem;
     text-align: left;
     margin-left: 1cap;
@@ -200,17 +115,431 @@ h6 {
     text-align: left;
     margin-left: 1.5cap;
 }
+.center {
+    text-align: center;
+    font-family: Cheva;
+    font-size: 4rem;
+    color:#AFC091
+}
 
 /* Font sizes */
 .pfont-size {
     font-size: medium;
 }
 
+}
+/* HEADER */
+.header {
+    font-family: Madsense;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content:space-around;
+    padding: .3 rem .5rem;
 
+.logo {
+    width: 5rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem ;
+}
+p {
+        font-family: Madsense;
+        font-size: 1.5rem;
+        color: aliceblue;
+        text-align: left;
+        letter-spacing: .5px;
 
-/* Images */
+}
+}
+/* HOME */
+.home {
 
+    p {
+    font-family: Mustica Pro;
+    font-size: 1.4rem;
+    color:#AFC091;
+    letter-spacing: 0;
+    }
+.home-heading {
+    font-family: Montserrat;
+    font-size: 6.5rem;
+    letter-spacing: 0cap;
+    margin-top: 2cap;
+    margin-bottom: 0;
+}
+.home-subheading {
+    opacity: 70%;
+    font-family: Horizon;
+    font-size: 3.4rem;
+    letter-spacing: 0cap;
+    margin-top: 0cap;
+    margin-bottom: 0;
+    margin-left:2.1cap;
+}
 .me-img {
+    display: block;
+    width: 71%;
+    height: auto;
+    transform: translate(-5%,1%);
+}
+}
+/* ABOUT */
+.about {
+    .flex-container-ptfl {
+        text-align: right;
+        display: flex;
+        column-gap: .5cap;
+        margin: 4cap;
+        margin-top: 1cap;
+        margin-bottom: 2cap;
+    }
+h2 {
+    font-family: Mustica Pro;
+    letter-spacing: 1;
+    margin-bottom: -0.5cap;
+}
+h3 {
+    font-family: Mustica Pro;
+    margin-left: 2.5cap;
+    letter-spacing: 0;
+}
+p {
+    font-family: Mustica Pro;
+    font-size: 1.5rem;
+    color:#AFC091;
+    letter-spacing: 0;
+    }
+.header-abt {
+    font-size: 7rem;
+    font-family: Horizon;
+    color: #AFC091;
+    letter-spacing: 0.1rem;
+    height:auto;
+    margin:auto;
+    margin-left: 2cap;
+    margin-top: 1cap;
+    margin-bottom: .1cap;
+}
+.abtme-img {
+    margin-top: 2.5cap;
+    width: 50%;
+    border-radius: 20cap;
+    height: auto;
+
+}
+}
+
+/* EDUCATION */
+.educ {
+
+.grid-container-educ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin:3cap;
+}
+.header-educ {
+    font-size: 7rem;
+    font-family: Horizon;
+    color: #AFC091;
+    letter-spacing: 0.1cap;
+    height:auto;
+    margin:auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin-right: 7cap;
+    margin-top: 1cap;
+    margin-bottom: 1.5cap;
+}
+.grid-child-yr {
+
+.grid-item-yr-educ {
+height:auto;
+font-family: Cheva;
+letter-spacing: 0.3rem;
+;
+font-style:initial;
+font-size: 85px;
+margin: 4rem;
+margin-top: 0;
+margin-bottom: 2.8cap;
+} 
+}
+.grid-child-educ {
+.grid-item-large-educ {
+height:auto;
+font-family: 'Times New Roman', Times, serif;
+color: white  ;
+font-size: 45px;
+margin: 4rem;
+margin-top: 0;
+ margin-bottom: 0.5;
+
+}
+.grid-item-sch-educ {
+height:auto;
+font-size: 30px;
+font-family: Mustica Pro;
+opacity: 70%;
+color: #AFC091  ;
+size: 30px;
+margin: 4rem;
+margin-top: 0;
+margin-bottom: 0;
+}
+}
+}
+
+/* EXPERIENCE */
+.exp {
+
+.header-exp {
+    font-size: 7rem;
+    font-family: Horizon;
+    color: #AFC091;
+    letter-spacing: 0.1rem;
+    height:auto;
+    margin:auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin-right: 7cap;
+    margin-top: 1cap;
+    margin-bottom: 1.5cap;
+}
+.exp-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50cap;
+    position: relative;
+    list-style-type: none;
+    column-gap: 0cap;
+    margin-bottom: 0.5cap;
+  }
+  .year-left-exp {
+    color: #AFC091;
+    font-family: Cheva;
+    font-size: 22rem;
+    flex: 0 0 100%;
+    width: 50%;
+  }
+  .year-right-exp {
+    color: #AFC091;
+    font-family: Cheva;
+    margin-left: 0.4cap;
+    font-size: 22rem;
+    flex: 0 0 100%;
+    width: 50%;
+  }
+  .name-exp {
+    color:#ffffff;
+    font-family: Shameimaru;
+    font-size: 3rem;
+    text-align: left;
+  }
+  .position-exp {
+    color: #AFC091;
+    font-family: Mustica Pro;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 2cap;
+  }
+
+}
+
+/* SKILLS */
+.skl{
+    .grid-container-skl {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 2.8cap;
+    margin: 5cap;
+    margin-bottom: 10cap;
+    }
+    .column {
+    border: 3px solid #AFC091;
+    border-radius: 12cap;
+    padding: 2cap;
+}
+    p {
+    font-family: Mustica Pro;
+    font-size: 3rem;
+    color:#AFC091;
+    text-align: center;
+    letter-spacing: 0;
+    margin-bottom: 1.8cap;
+    }
+
+
+    .header-skl {
+    font-size: 7rem;
+    font-family: Horizon;
+    color: #AFC091;
+    letter-spacing: 0.1rem;
+    height:auto;
+    margin:auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0.5cap;
+    margin-bottom: -0.2cap;
+    }
+    .grid-child-skl {
+
+.software-skl-illus {
+    height:auto;
+    font-family: Mustica Pro;
+    color: #deebc8;
+    font-size: 1.9rem;
+    opacity: 70%;
+    margin-left: 2.3cap;
+    margin-right: .5cap;
+    margin-top: 0cap;
+    margin-bottom: 2cap;
+    }
+    .software-skl-ps {
+        height:auto;
+        font-family: Mustica Pro;
+        color: #deebc8;
+        font-size: 1.9rem;
+        opacity: 70%;
+        margin-left: 2.3cap;
+        margin-right: .5cap;
+        margin-top: 0cap;
+        margin-bottom: 2cap;
+        }
+    .software-skl-csp {
+        height:auto;
+        font-family: Mustica Pro;
+        color: #deebc8;
+        font-size: 1.9rem;
+        opacity: 70%;;
+        margin-left: .5cap;
+        margin-right: .5cap;
+        margin-top: -0.3cap;
+        margin-bottom: 2cap;
+        }
+
+    .software-skl-ad {
+        height:auto;
+        font-family: Mustica Pro;
+        color: #deebc8;
+        font-size: 1.9rem;
+        opacity: 70%;;
+        margin-left: 1cap;
+        margin-right: .5cap;
+        margin-top: -0.3cap;
+        margin-bottom: 2cap;
+    }
+    .software-skl-vp {
+        height:auto;
+        font-family: Mustica Pro;
+        color: #deebc8;
+        font-size: 1.9rem;
+        opacity: 70%;;
+        margin-left: 2.5cap;
+        margin-right: .5cap;
+        margin-top: -0.3cap;
+        margin-bottom: 2cap;
+        }
+.percent-skl {
+        height:auto;
+        font-family: Mustica Pro;
+        color: #deebc8  ;
+        font-size: 7cap;
+        margin-left: 1cap;
+        margin-right: 1cap;
+        margin-top: 2cap;
+        margin-bottom: .2cap;
+        }
+.icon {
     width: 75%;
-    height: 75%;
+    height:auto;
+    margin-left: 2.6cap;
+    margin-top: 5cap;
+}
+.icon-resize {
+    width: 70%;
+    height:auto;
+    margin-left: 3.5cap;
+    margin-top: 5cap;
+    margin-bottom: 1.4cap;
+}
+    }
+}
+
+/* PORTFOLIO */
+.ptfl {
+    .flex-container-ptfl {
+        display: flex;
+        column-gap: .5cap;
+        margin: 4cap;
+        margin-top: 1cap;
+        margin-bottom: 2cap;
+    }
+    .header-ptfl {
+        font-size: 7rem;
+        font-family: Horizon;
+        color: #AFC091;
+        letter-spacing: 0.1rem;
+        height:auto;
+        margin:auto;
+        text-align: center;
+        margin-right: 5cap;
+        margin-left: 5cap;
+        margin-top: 1cap;
+        margin-bottom: .1cap;
+    }
+    .subheader-ptfl {
+        font-size: 4rem;
+        font-family: Horizon;
+        color: #ffffff;
+        letter-spacing: 0.1rem;
+        height:auto;
+        margin:auto;
+        padding: 10px;
+        width: 50%;
+        text-align: center;
+        margin-right: 6cap;
+        margin-left: 9.5cap;
+        margin-top: 0cap;
+        margin-bottom: .1cap;
+    }
+    .grid-container-ptfl {
+        display: flex;
+        flex-flow: row;
+        column-gap: 1.5cap;
+        margin-top: 1cap;
+        margin-bottom: 2cap;
+    }
+    .img-ft {
+        margin-left: 16rem;
+        width: 75%;
+        height: auto;
+        margin-bottom: 2cap;
+        border-radius: 2cap;
+    }
+    .img-ptfl{
+        width: 33.3%;
+        height: 25%;
+        overflow: hidden;
+        border-radius: 2cap;
+    }
+    .img-horizontal-ptfl{
+        width: 60%;
+        height: 30%;
+        overflow: hidden;
+        border-radius: 2cap;
+    }
+    .img-horizontal2-ptfl{
+        width: 56.6%;
+        height: 30%;
+        overflow: hidden;
+        border-radius: 2cap;
+    }
 }

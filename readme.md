@@ -9,11 +9,11 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Resume</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Jaz Estayo's Resume.
 </div>
 
 <br />
@@ -68,7 +68,7 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- Single Page Website
 - Parallax transition
 - Transactional
 
@@ -117,6 +117,14 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-https://stackoverflow.com/questions/69707160/text-floating-left-and-image-on-the-right
-https://stackoverflow.com/questions/40822576/removing-space-between-h1-and-h2
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | https://stackoverflow.com/questions/69707160/text-floating-left-and-image-on-the-right
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://stackoverflow.com/questions/40822576/removing-space-between-h1-and-h2
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.shecodes.io/athena/4000-creating-a-grid-with-five-columns-with-css
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.geeksforgeeks.org/how-to-align-images-side-by-side-using-css/
+https://www.w3schools.com/howto/howto_css_image_center.asp
+https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css
+https://www.browserstack.com/guide/how-to-resize-image-using-css
+https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/
+https://stackoverflow.com/questions/69004094/filling-a-css-grid-from-bottom-up-instead-of-top-down
+https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css
+| Flexbox Layout Pattern | Code used and revised for Experience Content | https://stackoverflow.com/questions/39141646/flexbox-layout-pattern-3-squares-ordered-1-large-left-2-small-right-stacked
