@@ -475,12 +475,15 @@ margin-bottom: 0;
 
 /* PORTFOLIO */
 .ptfl {
-    .flex-container-ptfl {
+   
+    .grid-container-ptfl {
         display: flex;
         column-gap: .5cap;
         margin: 4cap;
         margin-top: 1cap;
         margin-bottom: 2cap;
+    }
+
     }
     .header-ptfl {
         font-size: 7rem;
@@ -542,4 +545,12 @@ margin-bottom: 0;
         overflow: hidden;
         border-radius: 2cap;
     }
+    .overlay-text{
+    position:relative;
+    font-family: Horizon;
+    text-shadow: 12px 12px 12px 12px black;
+    left: 24%;
+    bottom: -1%;
+    font-size: 5rem;
+    color: white;
 }
