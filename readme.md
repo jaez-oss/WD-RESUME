@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/jaez-oss/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/jaeLogo.png" alt="JAE" width="130" height="100">
   </a>
@@ -13,14 +13,14 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Jazmine Estayo's Midterm Project.
+  CCS0027 - Midterm Project.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=jaez-oss/WD-TD21-ESTAYO-RESUME)
 
 ---
 
@@ -57,20 +57,13 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
+The project showcases artist Jae's resume profile. Its purpose is to impart the background
+of the artist; their education, experiences, skills, portfolio, and where they can be in touch.
+One of the key components of the project is that the header buttons allow the user to browse to the parts they want to view despite being a single page website. HTML and CSS were utilized to make the website functional. CSS holds the majority of the website design while HTML serves as the backbone, holding majority of the content of the website.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -90,7 +83,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-TD21-ESTAYO-RESUME
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -133,9 +126,8 @@ WD-ProjectName
 |  └─ pageName
 |     └─ assets
 |     |  └─ css
-|     |  |  └─ style.css
+|     |     └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
@@ -154,7 +146,7 @@ WD-ProjectName
 | Shameimaru Font | Font used in some headings of the page  | https://www.fontspace.com/shameimaru-sans-font-f27896
 | Montserrat Black | Font used in some text of the page  | https://www.fontspace.com/montserrat-font-f16544
 | MusticaPro | Font used in some headings of the page  | https://www.dafont.com/mustica-pro.font
-| Horizon Outlined | Font used in main headings of different sections  | https://www.dfonts.org/wp-content/uploads/fonts/Horizon-updated.zip
+| Horizon Outline | Font used in main headings of different sections  | https://www.dfonts.org/wp-content/uploads/fonts/Horizon-updated.zip
 | Text aligned with Image | Code used and revised to align image next to text in the Home Section | https://stackoverflow.com/questions/69707160/text-floating-left-and-image-on-the-right
 | Space between headings | Code used and revised to remove spaces between headings in the overall content of the website | https://stackoverflow.com/questions/40822576/removing-space-between-h1-and-h2
 | Columns | Code used and revised to make 5 columns for Skills Section | https://www.shecodes.io/athena/4000-creating-a-grid-with-five-columns-with-css
