@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/jaez-oss/">
 
-    <img src="./assets/img/jaeLogo.png" alt="JAE" width="150" height="100">
+  <img src="./assets/img/jaeLogo.png" alt="JAE" width="150" height="100">
   </a>
 
   <h3 align="center">Jaz Estayo's Creative Portfolio</h3>
