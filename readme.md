@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/jaez-oss/">
 
-  <img src="./assets/img/jaeLogo.png" alt="JAE" width="150" height="100">
+  <img src="./assets/img/jaeLogo.png" alt="JAE" width="200" height="100">
   </a>
 
   <h3 align="center">Jaz Estayo's Creative Portfolio</h3>
@@ -156,7 +156,7 @@ WD-TD21-ESTAYO-RESUME
 | Columns | Code used and revised to make 5 columns for Skills Section | https://www.shecodes.io/athena/4000-creating-a-grid-with-five-columns-with-css
 | Aligning images side by side | Code used for aligning images for Portfolio Section | https://www.geeksforgeeks.org/how-to-align-images-side-by-side-using-css/
 | Aligning image to center | Code used to center images | https://www.w3schools.com/howto/howto_css_image_center.asp
-| Image resize | Code used tresize uneven images | https://www.browserstack.com/guide/how-to-resize-image-using-css
+| Image resize | Code used to resize uneven images | https://www.browserstack.com/guide/how-to-resize-image-using-css
 | Image Overflow Hidden | Code used and revised for Portfolio Section | https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css
 | Flexbox Layout Pattern | Code used and revised for Experience Section | https://stackoverflow.com/questions/39141646/flexbox-layout-pattern-3-squares-ordered-1-large-left-2-small-right-stacked
 | Utilizing border-radius property | Code used and revised for adding roundness in images for Portfolio Section | https://www.w3schools.com/cssref/css3_pr_border-radius.php
