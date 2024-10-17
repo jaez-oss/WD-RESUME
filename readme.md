@@ -148,16 +148,16 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-<!-- DESIGN INSPOS-->
+
 | Portfolio Web Design | Inspo for the overall website design | https://www.behance.net/gallery/202610997/Galleon-Personal-Portfolio-Web-Design?tracking_source=search_projects|web+design+portfolio&l=14
-<!-- FONTS USED -->
+
 | Cheva Display Font | Font used in year headings | https://www.fontspace.com/cheva-display-font-f77288
 | Madsense Font | Font used in navigation buttons | https://www.fontspace.com/madsense-font-f57755
 | Shameimaru Font | Font used in some headings of the page  | https://www.fontspace.com/shameimaru-sans-font-f27896
 | Montserrat Black | Font used in some text of the page  | https://www.fontspace.com/montserrat-font-f16544
 | MusticaPro | Font used in some headings of the page  | https://www.dafont.com/mustica-pro.font
 | Horizon Outlined | Font used in main headings of different sections  | https://www.dfonts.org/wp-content/uploads/fonts/Horizon-updated.zip
-<!-- CODES REFERENCED & USED -->
+
 | Text aligned with Image | Code used and revised to align image next to text in the Home Section | https://stackoverflow.com/questions/69707160/text-floating-left-and-image-on-the-right
 | Space between headings | Code used and revised to remove spaces between headings in the overall content of the website | https://stackoverflow.com/questions/40822576/removing-space-between-h1-and-h2
 | Columns | Code used and revised to make 5 columns for Skills Section | https://www.shecodes.io/athena/4000-creating-a-grid-with-five-columns-with-css
