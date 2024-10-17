@@ -122,9 +122,7 @@ WD-TD21-ESTAYO-RESUME
 |   |     └─ kiniotoArtwork3.png
 |   |   └─ aboutMePicture.png
 |   |   └─ jaeLogo.png
-|   |   └─ me.png
-|   └─ js
-|       └─ script.js
+|   |   └─ imgMe.png
 └─ index.html
 └─ readme.md
 ```
@@ -153,3 +151,4 @@ WD-TD21-ESTAYO-RESUME
 | Utilizing border-radius property | Code used and revised for adding roundness in images for Portfolio Section | https://www.w3schools.com/cssref/css3_pr_border-radius.php
 | Aligning text beside button | Code used and revised for aligning contact button beside text | https://stackoverflow.com/questions/6632340/place-a-button-right-aligned
 | Customizing Buttons  | Code used and revised to fill the Contact button with a color | https://www.w3schools.com/howto/howto_css_outline_buttons.asp
+| Mailto Links | Code used and revised to add hyperlink when Contact button is pressed | https://css-tricks.com/snippets/html/mailto-links/
