@@ -120,7 +120,7 @@ WD-TD21-ESTAYO-RESUME
 |   |     └─ kiniotoArtwork.png
 |   |     └─ kiniotoArtwork2.png
 |   |     └─ kiniotoArtwork3.png
-|   |   └─ aboutMePicture.png
+|   |   └─ aboutMe.png
 |   |   └─ jaeLogo.png
 |   |   └─ imgMe.png
 └─ index.html
