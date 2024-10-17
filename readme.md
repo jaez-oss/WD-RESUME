@@ -9,11 +9,11 @@
     <img src="./assets/img/jaeLogo.png" alt="JAE" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Jaz Estayo's Resume</h3>
+  <h3 align="center">Jaz Estayo's Portfolio</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Jaz Estayo's Resume.
+  Jazmine Estayo's Midterm Project.
 </div>
 
 <br />
@@ -94,8 +94,39 @@ WD-ProjectName
 └─ assets
 |   └─ css
 |   |   └─ style.css
+|   └─ font
+|   |   └─ chevaDisplay.otf
+|   |   └─ horizonOutline.otf
+|   |   └─ madsense.otf
+|   |   └─ montserratBlack.ttf
+|   |   └─ musticaproSemibold.otf
+|   |   └─ shameimaruSans.ttf
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ backgroundAssets
+|   |     └─ jaesohBackground.png
+|   |   └─ softwarePictures
+|   |     └─ ai.png
+|   |     └─ csp.png
+|   |     └─ maya.png
+|   |     └─ ps.png
+|   |     └─ vp.png
+|   |   └─ works
+|   |     └─ commArtwork1.png
+|   |     └─ commArtwork2.png
+|   |     └─ commArtwork3.png
+|   |     └─ commArtwork4.png
+|   |     └─ featuredWork.png
+|   |     └─ hololiveArtwork1.jpg
+|   |     └─ hololiveArtwork2.jpg
+|   |     └─ hololiveArtwork3.jpg
+|   |     └─ hololiveArtwork4.jpg
+|   |     └─ hololiveArtwork5.png
+|   |     └─ kiniotoArtwork.png
+|   |     └─ kiniotoArtwork2.png
+|   |     └─ kiniotoArtwork3.png
+|   |   └─ aboutMePicture.png
+|   |   └─ jaeLogo.png
+|   |   └─ me.png
 |   └─ js
 |       └─ script.js
 └─ pages
@@ -117,14 +148,26 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | https://stackoverflow.com/questions/69707160/text-floating-left-and-image-on-the-right
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://stackoverflow.com/questions/40822576/removing-space-between-h1-and-h2
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.shecodes.io/athena/4000-creating-a-grid-with-five-columns-with-css
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.geeksforgeeks.org/how-to-align-images-side-by-side-using-css/
-https://www.w3schools.com/howto/howto_css_image_center.asp
-https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css
-https://www.browserstack.com/guide/how-to-resize-image-using-css
+<!-- DESIGN INSPOS-->
+| Portfolio Web Design | Inspo for the overall website design | https://www.behance.net/gallery/202610997/Galleon-Personal-Portfolio-Web-Design?tracking_source=search_projects|web+design+portfolio&l=14
+<!-- FONTS USED -->
+| Cheva Display Font | Font used in year headings | https://www.fontspace.com/cheva-display-font-f77288
+| Madsense Font | Font used in navigation buttons | https://www.fontspace.com/madsense-font-f57755
+| Shameimaru Font | Font used in some headings of the page  | https://www.fontspace.com/shameimaru-sans-font-f27896
+| Montserrat Black | Font used in some text of the page  | https://www.fontspace.com/montserrat-font-f16544
+| MusticaPro | Font used in some headings of the page  | https://www.dafont.com/mustica-pro.font
+| Horizon Outlined | Font used in main headings of different sections  | https://www.dfonts.org/wp-content/uploads/fonts/Horizon-updated.zip
+<!-- CODES REFERENCED & USED -->
+| Text aligned with Image | Code used and revised to align image next to text in the Home Section | https://stackoverflow.com/questions/69707160/text-floating-left-and-image-on-the-right
+| Space between headings | Code used and revised to remove spaces between headings in the overall content of the website | https://stackoverflow.com/questions/40822576/removing-space-between-h1-and-h2
+| Columns | Code used and revised to make 5 columns for Skills Section | https://www.shecodes.io/athena/4000-creating-a-grid-with-five-columns-with-css
+| Aligning images side by side | Code used for aligning images for Portfolio Section | https://www.geeksforgeeks.org/how-to-align-images-side-by-side-using-css/
+| Aligning image to center | Code used to center images | https://www.w3schools.com/howto/howto_css_image_center.asp
+| Image resize | Code used tresize uneven images | https://www.browserstack.com/guide/how-to-resize-image-using-css
 https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/
 https://stackoverflow.com/questions/69004094/filling-a-css-grid-from-bottom-up-instead-of-top-down
-https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css
-| Flexbox Layout Pattern | Code used and revised for Experience Content | https://stackoverflow.com/questions/39141646/flexbox-layout-pattern-3-squares-ordered-1-large-left-2-small-right-stacked
+| Image Overflow Hidden | Code used and revised for Portfolio Section | https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css
+| Flexbox Layout Pattern | Code used and revised for Experience Section | https://stackoverflow.com/questions/39141646/flexbox-layout-pattern-3-squares-ordered-1-large-left-2-small-right-stacked
+| Utilizing border-radius property | Code used and revised for adding roundness in images for Portfolio Section | https://www.w3schools.com/cssref/css3_pr_border-radius.php
+| Aligning text beside button | Code used and revised for aligning contact button beside text | https://stackoverflow.com/questions/6632340/place-a-button-right-aligned
+https://www.w3schools.com/howto/howto_css_outline_buttons.asp

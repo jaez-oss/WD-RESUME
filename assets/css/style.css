@@ -1,28 +1,28 @@
 /* Fonts */
 @font-face {
     font-family: Montserrat;
-    src: url(/assets/font/MontserratBlack-3zOvZ.ttf);
+    src: url(/assets/font/montserratBlack.ttf);
 }
 @font-face {
     font-family: Cheva;
-    src: url(/assets/font/ChevadisplayRegular-1G5ve.otf);
+    src: url(/assets/font/chevaDisplay.otf);
 }
 @font-face {
     font-family: Madsense;
-    src: url(/assets/font/MadsenseFreeTrial-qZmDV.otf);
+    src: url(/assets/font/madsense.otf);
 }
 
 @font-face {
     font-family: Shameimaru;
-    src: url(/assets/font/ShameimaruSans-9VX0.ttf);
+    src: url(/assets/font/shameimaruSans.ttf);
 }
 @font-face {
     font-family: Mustica Pro;
-    src: url(/assets/font/MusticaproSemibold-lgmwD.otf);
+    src: url(/assets/font/musticaproSemibold.otf);
 }
 @font-face {
     font-family: Horizon;
-    src: url(/assets/font/horizon_outlined.otf);
+    src: url(/assets/font/horizonOutline.otf);
 }
 
 
@@ -152,6 +152,9 @@ p {
         text-align: left;
         letter-spacing: .5px;
 
+}
+.btn {
+    color: #AFC091;
 }
 }
 /* HOME */
@@ -372,6 +375,7 @@ margin-bottom: 0;
     color:#AFC091;
     text-align: center;
     letter-spacing: 0;
+    margin-top: 0.5cap;
     margin-bottom: 1.8cap;
     }
 
@@ -475,7 +479,8 @@ margin-bottom: 0;
 
 /* PORTFOLIO */
 .ptfl {
-   
+
+    
     .grid-container-ptfl {
         display: flex;
         column-gap: .5cap;
@@ -484,7 +489,7 @@ margin-bottom: 0;
         margin-bottom: 2cap;
     }
 
-    }
+    
     .header-ptfl {
         font-size: 7rem;
         font-family: Horizon;
@@ -554,3 +559,43 @@ margin-bottom: 0;
     font-size: 5rem;
     color: white;
 }
+}
+
+/* CONTACT */
+.cntct {
+
+    h1 {
+        display: inline-block;
+        font-family: Cheva;
+        color: #AFC091;
+        margin-bottom: 2%;
+    }
+    h2 {
+        font-family: Cheva;
+        color: #AFC091;
+        margin-top: 0%;
+    }
+    .btn {
+        
+        font-family: Cheva;
+        color: #AFC091;
+        margin-top: 5.5%;
+        padding: 1.5rem 7rem;
+        border-radius: 100cap;
+        fill: #AFC091;
+        font-size: 4rem;
+    &.active {
+        background-color: #AFC091;
+        color: black;
+    }
+       
+    }
+    .flexbox-container-cntct {
+        display: flex;
+        justify-content: space-between;
+        gap: 50cap;
+
+    }
+
+}
+
