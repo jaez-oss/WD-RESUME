@@ -1,28 +1,28 @@
 /* Fonts */
 @font-face {
     font-family: Montserrat;
-    src: url('/assets/font/montserratBlack.ttf');
+    src: url("/assets/font/montserratBlack.ttf");
 }
 @font-face {
     font-family: Cheva;
-    src: url('/assets/font/chevaDisplay.otf');
+    src: url("/assets/font/chevaDisplay.otf");
 }
 @font-face {
     font-family: Madsense;
-    src: url('/assets/font/madsense.otf');
+    src: url("/assets/font/madsense.otf");
 }
 
 @font-face {
     font-family: Shameimaru;
-    src: url('/assets/font/shameimaruSans.ttf');
+    src: url("/assets/font/shameimaruSans.ttf");
 }
 @font-face {
     font-family: Mustica Pro;
-    src: url('/assets/font/musticaproSemibold.otf');
+    src: url("/assets/font/musticaproSemibold.otf");
 }
 @font-face {
     font-family: Horizon;
-    src: url('/assets/font/horizonOutline.otf');
+    src: url("/assets/font/horizonOutline.otf");
 }
 
 
