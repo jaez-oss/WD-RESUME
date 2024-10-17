@@ -9,11 +9,11 @@
     <img src="./assets/img/jaeLogo.png" alt="JAE" width="150" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Jaz Estayo's Portfolio</h3>
+  <h3 align="center">Jaz Estayo's Creative Portfolio</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  CCS0027 - Midterm Project.
+  CCS0027 - Midterm Project
 </div>
 
 <br />
@@ -62,7 +62,9 @@ of the artist; their education, experiences, skills, portfolio, and where they c
 
 One of the key components of the project is that the header buttons allow the user to browse to the parts they want to view despite being a single page website.
 
- HTML and CSS were utilized to make the website functional. CSS holds the majority of the website design while HTML serves as the backbone, holding majority of the content of the website.
+HTML and CSS were utilized to make the website functional. CSS holds the majority of the website design while HTML serves as the backbone, holding majority of the content of the website.
+
+The website is best viewed zoomed in 100%.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
@@ -156,8 +158,6 @@ WD-TD21-ESTAYO-RESUME
 | Aligning images side by side | Code used for aligning images for Portfolio Section | https://www.geeksforgeeks.org/how-to-align-images-side-by-side-using-css/
 | Aligning image to center | Code used to center images | https://www.w3schools.com/howto/howto_css_image_center.asp
 | Image resize | Code used tresize uneven images | https://www.browserstack.com/guide/how-to-resize-image-using-css
-https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/
-https://stackoverflow.com/questions/69004094/filling-a-css-grid-from-bottom-up-instead-of-top-down
 | Image Overflow Hidden | Code used and revised for Portfolio Section | https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css
 | Flexbox Layout Pattern | Code used and revised for Experience Section | https://stackoverflow.com/questions/39141646/flexbox-layout-pattern-3-squares-ordered-1-large-left-2-small-right-stacked
 | Utilizing border-radius property | Code used and revised for adding roundness in images for Portfolio Section | https://www.w3schools.com/cssref/css3_pr_border-radius.php

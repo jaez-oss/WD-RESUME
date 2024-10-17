@@ -51,7 +51,7 @@ p {
     font-size: 1.5rem;
     color: aliceblue;
     text-align: left;
-    letter-spacing: .5px;
+    letter-spacing: 0.031rem;
 }
 .pleft-align {
     color: #AFC091;
@@ -68,7 +68,7 @@ p {
 /* Defaults */
 
 h1 {
-    letter-spacing: 1px;
+    letter-spacing: 0.063rem;
     font-size: 5rem;
     margin-left: 1cap;
     color: #ffffff;
@@ -150,7 +150,7 @@ p {
         font-size: 1.5rem;
         color: aliceblue;
         text-align: left;
-        letter-spacing: .5px;
+        letter-spacing: 0.031rem;
 
 }
 .btn {
@@ -183,7 +183,6 @@ p {
     margin-left:2.1cap;
 }
 .me-img {
-    display: block;
     width: 71%;
     height: auto;
     transform: translate(-5%,1%);
@@ -241,7 +240,7 @@ p {
 .grid-container-educ {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
     margin:3cap;
 }
 .header-educ {
@@ -251,7 +250,7 @@ p {
     letter-spacing: 0.1cap;
     height:auto;
     margin:auto;
-    padding: 10px;
+    padding: 0.625rem;
     width: 50%;
     text-align: center;
     margin-right: 7cap;
@@ -266,7 +265,7 @@ font-family: Cheva;
 letter-spacing: 0.3rem;
 ;
 font-style:initial;
-font-size: 85px;
+font-size: 5.313rem;
 margin: 4rem;
 margin-top: 0;
 margin-bottom: 2.8cap;
@@ -277,7 +276,7 @@ margin-bottom: 2.8cap;
 height:auto;
 font-family: 'Times New Roman', Times, serif;
 color: white  ;
-font-size: 45px;
+font-size: 2.813rem;
 margin: 4rem;
 margin-top: 0;
  margin-bottom: 0.5;
@@ -285,11 +284,11 @@ margin-top: 0;
 }
 .grid-item-sch-educ {
 height:auto;
-font-size: 30px;
+font-size: 1.875rem;
 font-family: Mustica Pro;
 opacity: 70%;
 color: #AFC091  ;
-size: 30px;
+size: 1.875rem;
 margin: 4rem;
 margin-top: 0;
 margin-bottom: 0;
@@ -307,7 +306,7 @@ margin-bottom: 0;
     letter-spacing: 0.1rem;
     height:auto;
     margin:auto;
-    padding: 10px;
+    padding: 0.625rem;
     width: 50%;
     text-align: center;
     margin-right: 7cap;
@@ -323,35 +322,43 @@ margin-bottom: 0;
     list-style-type: none;
     column-gap: 0cap;
     margin-bottom: 0.5cap;
-  }
-  .year-left-exp {
+    }
+    .year-left-exp {
     color: #AFC091;
     font-family: Cheva;
     font-size: 22rem;
     flex: 0 0 100%;
     width: 50%;
-  }
-  .year-right-exp {
+    }
+    .year-right-exp {
+    color: #AFC091;
+    font-family: Cheva;
+    margin-left: 0.3cap;
+    font-size: 22rem;
+    flex: 0 0 100%;
+    width: 50%;
+    }
+    .year-right-exp2 {
     color: #AFC091;
     font-family: Cheva;
     margin-left: 0.4cap;
     font-size: 22rem;
     flex: 0 0 100%;
     width: 50%;
-  }
-  .name-exp {
+    }
+    .name-exp {
     color:#ffffff;
     font-family: Shameimaru;
     font-size: 3rem;
     text-align: left;
-  }
-  .position-exp {
+    }
+    .position-exp {
     color: #AFC091;
     font-family: Mustica Pro;
     font-size: 2rem;
     text-align: left;
     margin-bottom: 2cap;
-  }
+    }
 
 }
 
@@ -365,7 +372,7 @@ margin-bottom: 0;
     margin-bottom: 10cap;
     }
     .column {
-    border: 3px solid #AFC091;
+    border: 0.188rem solid #AFC091;
     border-radius: 12cap;
     padding: 2cap;
 }
@@ -387,7 +394,7 @@ margin-bottom: 0;
     letter-spacing: 0.1rem;
     height:auto;
     margin:auto;
-    padding: 10px;
+    padding: 0.625rem;
     width: 50%;
     text-align: center;
     margin-top: 0.5cap;
@@ -451,7 +458,7 @@ margin-bottom: 0;
         margin-top: -0.3cap;
         margin-bottom: 2cap;
         }
-.percent-skl {
+    .percent-skl {
         height:auto;
         font-family: Mustica Pro;
         color: #deebc8  ;
@@ -461,18 +468,18 @@ margin-bottom: 0;
         margin-top: 2cap;
         margin-bottom: .2cap;
         }
-.icon {
-    width: 75%;
-    height:auto;
-    margin-left: 2.6cap;
-    margin-top: 5cap;
-}
-.icon-resize {
-    width: 70%;
-    height:auto;
-    margin-left: 3.5cap;
-    margin-top: 5cap;
-    margin-bottom: 1.4cap;
+    .icon {
+        width: 75%;
+        height:auto;
+        margin-left: 2.6cap;
+        margin-top: 5cap;
+    }
+    .icon-resize {
+        width: 70%;
+        height:auto;
+        margin-left: 3.5cap;
+        margin-top: 5cap;
+        margin-bottom: 1.4cap;
 }
     }
 }
@@ -480,8 +487,8 @@ margin-bottom: 0;
 /* PORTFOLIO */
 .ptfl {
 
-    
-    .grid-container-ptfl {
+
+    .container-ptfl {
         display: flex;
         column-gap: .5cap;
         margin: 4cap;
@@ -489,7 +496,7 @@ margin-bottom: 0;
         margin-bottom: 2cap;
     }
 
-    
+
     .header-ptfl {
         font-size: 7rem;
         font-family: Horizon;
@@ -510,7 +517,7 @@ margin-bottom: 0;
         letter-spacing: 0.1rem;
         height:auto;
         margin:auto;
-        padding: 10px;
+        padding: 0.625rem;
         width: 50%;
         text-align: center;
         margin-right: 6cap;
@@ -518,7 +525,7 @@ margin-bottom: 0;
         margin-top: 0cap;
         margin-bottom: .1cap;
     }
-    .grid-container-ptfl {
+    .flex-container-ptfl {
         display: flex;
         flex-flow: row;
         column-gap: 1.5cap;
@@ -553,7 +560,7 @@ margin-bottom: 0;
     .overlay-text{
     position:relative;
     font-family: Horizon;
-    text-shadow: 12px 12px 12px 12px black;
+    text-shadow: 0.75rem 0.75rem 0.75rem 0.75rem black;
     left: 24%;
     bottom: -1%;
     font-size: 5rem;
@@ -565,7 +572,6 @@ margin-bottom: 0;
 .cntct {
 
     h1 {
-        display: inline-block;
         font-family: Cheva;
         color: #AFC091;
         margin-bottom: 2%;
@@ -576,7 +582,7 @@ margin-bottom: 0;
         margin-top: 0%;
     }
     .btn {
-        
+
         font-family: Cheva;
         color: #AFC091;
         margin-top: 5.5%;
@@ -588,7 +594,7 @@ margin-bottom: 0;
         background-color: #AFC091;
         color: black;
     }
-       
+
     }
     .flexbox-container-cntct {
         display: flex;
