@@ -76,7 +76,7 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -167,4 +167,4 @@ https://stackoverflow.com/questions/69004094/filling-a-css-grid-from-bottom-up-i
 | Flexbox Layout Pattern | Code used and revised for Experience Section | https://stackoverflow.com/questions/39141646/flexbox-layout-pattern-3-squares-ordered-1-large-left-2-small-right-stacked
 | Utilizing border-radius property | Code used and revised for adding roundness in images for Portfolio Section | https://www.w3schools.com/cssref/css3_pr_border-radius.php
 | Aligning text beside button | Code used and revised for aligning contact button beside text | https://stackoverflow.com/questions/6632340/place-a-button-right-aligned
-https://www.w3schools.com/howto/howto_css_outline_buttons.asp
+| Customizing Buttons  | Code used and revised to fill the Contact button with a color | https://www.w3schools.com/howto/howto_css_outline_buttons.asp
