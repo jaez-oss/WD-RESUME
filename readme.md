@@ -5,21 +5,20 @@
 <br />
 <div align="center">
   <a href="https://github.com/jaez-oss/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
+
     <img src="./assets/img/jaeLogo.png" alt="JAE" width="150" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
+
   <h3 align="center">Jaz Estayo's Creative Portfolio</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
   CCS0027 - Midterm Project
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+
 ![](https://visit-counter.vercel.app/counter.png?page=jaez-oss/WD-TD21-ESTAYO-RESUME)
 
 ---
@@ -27,7 +26,7 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,8 +54,8 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
+
+
 The project showcases artist Jae's resume profile. Its purpose is to impart the background
 of the artist; their education, experiences, skills, portfolio, and where they can be in touch.
 
@@ -64,14 +63,13 @@ One of the key components of the project is that the header buttons allow the us
 
 HTML and CSS were utilized to make the website functional. CSS holds the majority of the website design while HTML serves as the backbone, holding majority of the content of the website.
 
-The website is best viewed zoomed in 100%.
+The website is best viewed when zoomed in 100%.
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
+
 - Single Page Website
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -142,9 +140,10 @@ WD-TD21-ESTAYO-RESUME
 
 ## Resources
 
-<!-- TODO: Add References -->
+
 | Title | Purpose | Link |
 |-|-|-|
+| Transparent PNG Software Icons | Website where software icon pngs were installed | https://www.pngwing.com/
 | Portfolio Web Design | Inspo for the overall website design | https://www.behance.net/gallery/202610997/Galleon-Personal-Portfolio-Web-Design?tracking_source=search_projects|web+design+portfolio&l=14
 | Cheva Display Font | Font used in year headings | https://www.fontspace.com/cheva-display-font-f77288
 | Madsense Font | Font used in navigation buttons | https://www.fontspace.com/madsense-font-f57755
