@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/jaez-oss/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/jaeLogo.png" alt="JAE" width="130" height="100">
+    <img src="./assets/img/jaeLogo.png" alt="JAE" width="150" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Jaz Estayo's Portfolio</h3>
@@ -59,7 +59,10 @@
 <!-- The following are just sample -->
 The project showcases artist Jae's resume profile. Its purpose is to impart the background
 of the artist; their education, experiences, skills, portfolio, and where they can be in touch.
-One of the key components of the project is that the header buttons allow the user to browse to the parts they want to view despite being a single page website. HTML and CSS were utilized to make the website functional. CSS holds the majority of the website design while HTML serves as the backbone, holding majority of the content of the website.
+
+One of the key components of the project is that the header buttons allow the user to browse to the parts they want to view despite being a single page website.
+
+ HTML and CSS were utilized to make the website functional. CSS holds the majority of the website design while HTML serves as the backbone, holding majority of the content of the website.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
