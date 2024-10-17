@@ -125,15 +125,6 @@ WD-TD21-ESTAYO-RESUME
 |   |   └─ me.png
 |   └─ js
 |       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |     └─ style.css
-|     |  └─ img
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
 └─ index.html
 └─ readme.md
 ```
