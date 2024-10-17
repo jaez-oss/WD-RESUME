@@ -1,28 +1,28 @@
 /* Fonts */
 @font-face {
     font-family: Montserrat;
-    src: url("/assets/font/montserratBlack.ttf");
+    src: url('/assets/font/montserratBlack.ttf')format('truetype');
 }
 @font-face {
     font-family: Cheva;
-    src: url("/assets/font/chevaDisplay.otf");
+    src: url('/assets/font/chevaDisplay.otf')format('truetype');
 }
 @font-face {
     font-family: Madsense;
-    src: url("/assets/font/madsense.otf");
+    src: url('/assets/font/madsenseFont.otf')format('truetype');
 }
 
 @font-face {
     font-family: Shameimaru;
-    src: url("/assets/font/shameimaruSans.ttf");
+    src: url('/assets/font/shameimaruSans.ttf') format('truetype');
 }
 @font-face {
     font-family: Mustica Pro;
-    src: url("/assets/font/musticaproSemibold.otf");
+    src: url('/assets/font/musticaproSemibold.otf')format('truetype');
 }
 @font-face {
     font-family: Horizon;
-    src: url("/assets/font/horizonOutline.otf");
+    src: url('/assets/font/horizonOutline.otf')format('truetype');
 }
 
 
@@ -130,7 +130,7 @@ h6 {
 }
 /* HEADER */
 .header {
-    font-family: Madsense;
+    font-family: 'Madsense';
     display: flex;
     background-color: transparent;
     align-items: center;
@@ -146,7 +146,7 @@ nav {
     gap: 2rem ;
 }
 p {
-        font-family: Madsense;
+        font-family: 'Madsense';
         font-size: 1.5rem;
         color: aliceblue;
         text-align: left;
@@ -161,13 +161,13 @@ p {
 .home {
 
     p {
-    font-family: Mustica Pro;
+    font-family: 'Mustica Pro';
     font-size: 1.4rem;
     color:#AFC091;
     letter-spacing: 0;
     }
 .home-heading {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 6.5rem;
     letter-spacing: 0cap;
     margin-top: 2cap;
@@ -175,7 +175,7 @@ p {
 }
 .home-subheading {
     opacity: 70%;
-    font-family: Horizon;
+    font-family: 'Horizon';
     font-size: 3.4rem;
     letter-spacing: 0cap;
     margin-top: 0cap;
@@ -199,24 +199,24 @@ p {
         margin-bottom: 2cap;
     }
 h2 {
-    font-family: Mustica Pro;
+    font-family: 'Mustica Pro';
     letter-spacing: 1;
     margin-bottom: -0.5cap;
 }
 h3 {
-    font-family: Mustica Pro;
+    font-family: 'Mustica Pro';
     margin-left: 2.5cap;
     letter-spacing: 0;
 }
 p {
-    font-family: Mustica Pro;
+    font-family: 'Mustica Pro';
     font-size: 1.5rem;
     color:#AFC091;
     letter-spacing: 0;
     }
 .header-abt {
     font-size: 7rem;
-    font-family: Horizon;
+    font-family: 'Horizon';
     color: #AFC091;
     letter-spacing: 0.1rem;
     height:auto;
@@ -245,7 +245,7 @@ p {
 }
 .header-educ {
     font-size: 7rem;
-    font-family: Horizon;
+    font-family: 'Horizon';
     color: #AFC091;
     letter-spacing: 0.1cap;
     height:auto;
@@ -261,7 +261,7 @@ p {
 
 .grid-item-yr-educ {
 height:auto;
-font-family: Cheva;
+font-family: 'Cheva';
 letter-spacing: 0.3rem;
 ;
 font-style:initial;
@@ -285,7 +285,7 @@ margin-top: 0;
 .grid-item-sch-educ {
 height:auto;
 font-size: 1.875rem;
-font-family: Mustica Pro;
+font-family: 'Mustica Pro';
 opacity: 70%;
 color: #AFC091  ;
 size: 1.875rem;
@@ -377,7 +377,7 @@ margin-bottom: 0;
     padding: 2cap;
 }
     p {
-    font-family: Mustica Pro;
+    font-family: 'Mustica Pro';
     font-size: 3rem;
     color:#AFC091;
     text-align: center;
@@ -388,7 +388,7 @@ margin-bottom: 0;
 
     .header-skl {
     font-size: 7rem;
-    font-family: Horizon;
+    font-family: 'Horizon';
     color: #AFC091;
     letter-spacing: 0.1rem;
     height:auto;
@@ -403,7 +403,7 @@ margin-bottom: 0;
 
 .software-skl-illus {
     height:auto;
-    font-family: Mustica Pro;
+    font-family: 'Mustica Pro';
     color: #deebc8;
     font-size: 1.9rem;
     opacity: 70%;
@@ -414,7 +414,7 @@ margin-bottom: 0;
     }
     .software-skl-ps {
         height:auto;
-        font-family: Mustica Pro;
+        font-family: 'Mustica Pro';
         color: #deebc8;
         font-size: 1.9rem;
         opacity: 70%;
@@ -425,7 +425,7 @@ margin-bottom: 0;
         }
     .software-skl-csp {
         height:auto;
-        font-family: Mustica Pro;
+        font-family: 'Mustica Pro';
         color: #deebc8;
         font-size: 1.9rem;
         opacity: 70%;;
@@ -437,7 +437,7 @@ margin-bottom: 0;
 
     .software-skl-ad {
         height:auto;
-        font-family: Mustica Pro;
+        font-family: 'Mustica Pro';
         color: #deebc8;
         font-size: 1.9rem;
         opacity: 70%;;
@@ -448,7 +448,7 @@ margin-bottom: 0;
     }
     .software-skl-vp {
         height:auto;
-        font-family: Mustica Pro;
+        font-family: 'Mustica Pro';
         color: #deebc8;
         font-size: 1.9rem;
         opacity: 70%;;
@@ -459,7 +459,7 @@ margin-bottom: 0;
         }
     .percent-skl {
         height:auto;
-        font-family: Mustica Pro;
+        font-family: 'Mustica Pro';
         color: #deebc8  ;
         font-size: 7cap;
         margin-left: 1cap;
@@ -511,7 +511,7 @@ margin-bottom: 0;
     }
     .subheader-ptfl {
         font-size: 4rem;
-        font-family: Horizon;
+        font-family: 'Horizon';
         color: #ffffff;
         letter-spacing: 0.1rem;
         height:auto;
@@ -562,18 +562,18 @@ margin-bottom: 0;
 .cntct {
 
     h1 {
-        font-family: Cheva;
+        font-family: 'Cheva';
         color: #AFC091;
         margin-bottom: 2%;
     }
     h2 {
-        font-family: Cheva;
+        font-family: 'Cheva';
         color: #AFC091;
         margin-top: 0%;
     }
     .btn {
 
-        font-family: Cheva;
+        font-family: 'Cheva';
         color: #AFC091;
         margin-top: 5.5%;
         padding: 1.5rem 7rem;
