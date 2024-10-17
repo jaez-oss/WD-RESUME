@@ -93,7 +93,7 @@ WD-TD21-ESTAYO-RESUME
 |   └─ font
 |   |   └─ chevaDisplay.otf
 |   |   └─ horizonOutline.otf
-|   |   └─ madsense.otf
+|   |   └─ madsenseFont.otf
 |   |   └─ montserratBlack.ttf
 |   |   └─ musticaproSemibold.otf
 |   |   └─ shameimaruSans.ttf
@@ -101,11 +101,11 @@ WD-TD21-ESTAYO-RESUME
 |   |   └─ backgroundAssets
 |   |     └─ jaesohBackground.png
 |   |   └─ softwarePictures
-|   |     └─ ai.png
-|   |     └─ csp.png
-|   |     └─ maya.png
-|   |     └─ ps.png
-|   |     └─ vp.png
+|   |     └─ iconAi.png
+|   |     └─ iconCsp.png
+|   |     └─ iconMaya.png
+|   |     └─ iconPs.png
+|   |     └─ iconVp.png
 |   |   └─ works
 |   |     └─ commArtwork1.png
 |   |     └─ commArtwork2.png
